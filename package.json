@@ -1,0 +1,17 @@
+{
+  "name": "web-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w",
+    "start": "node package.json",
+    "watch:sass": "node-sass sass/main.scss css/style.css"
+  },
+  
+  "author": "Magy Castillo",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^8.0.0"
+  }
+}
