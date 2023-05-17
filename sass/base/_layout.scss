@@ -148,6 +148,17 @@
     }
   }
 
+  &_display2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5rem;
+    overflow: hidden;
+
+    @include respond(tab-port) {
+      flex-direction: column;
+    }
+  } 
+
   &_display {
     display: flex;
     justify-content: space-evenly;
