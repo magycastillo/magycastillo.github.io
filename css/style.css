@@ -111,6 +111,14 @@ ORDER: base + typography > general layout + grid > page layout > components
     @media (max-width: 56.25em) {
       .gallery_p {
         margin: 1.5rem 2rem 1.5rem; } }
+  .gallery_display2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5rem;
+    overflow: hidden; }
+    @media (max-width: 56.25em) {
+      .gallery_display2 {
+        flex-direction: column; } }
   .gallery_display {
     display: flex;
     justify-content: space-evenly;
